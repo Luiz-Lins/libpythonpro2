@@ -6,6 +6,7 @@ Como contribuir em projetos de código aberto.
 Link para a comunidade [DevPro](https://pythonpro.com.br/)
 
 Suportada versão 3 de Python
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 Para instalar:
 
