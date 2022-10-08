@@ -37,4 +37,12 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-
+    - uses: actions/checkout@master
+    - uses: codecov/codecov-action@v3
+      with:
+        token:
+        files: ./coverage
+        flags:
+        name: codecov-umbrella # optional
+        fail_ci_if_error: false # optional (default = false)
+        verbose: false # optional (default = false)
