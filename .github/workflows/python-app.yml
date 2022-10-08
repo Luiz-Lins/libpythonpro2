@@ -40,7 +40,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: codecov/codecov-action@v3
       with:
-        token:
+        token: 91360aed-62a2-41ee-ab6b-347a0cae2378
         files: ./coverage
         flags:
         name: codecov-umbrella # optional
