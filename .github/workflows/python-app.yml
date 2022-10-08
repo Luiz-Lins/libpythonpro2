@@ -41,5 +41,5 @@ jobs:
     - uses: codecov/codecov-action@v3
       with:
         token: 91360aed-62a2-41ee-ab6b-347a0cae2378
-        files: ./coverage
+        files: ./coverage.exe
         name: codecov-umbrella
