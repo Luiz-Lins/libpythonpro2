@@ -42,6 +42,6 @@ jobs:
       with:
         token: 91360aed-62a2-41ee-ab6b-347a0cae2378
         files: ./coverage
-        name: codecov-umbrella # optional
+        name: codecov-umbrella
     - name: coverage
         run: pipenv run codecov
